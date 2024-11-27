@@ -1,0 +1,41 @@
+version: '3.8'
+services:
+  server_hello:
+    image: tigase/tigase-xmpp-server:8.0.0
+    ports:
+      - "8480:8080"
+      - "5422:5222"
+    environment:
+      - DB_ROOT_USER=admin
+      - DB_ROOT_PASS=admin
+      - ADMIN_JID=admin@server_hello 
+      - ADMIN_PASSWORD=admin
+      - PRICEHANDLER_JID=price_handler@server_hello
+      - PRICEHANDLER_PASSWORD=price_handler
+      - REPORTER_JID=reporter@server_hello
+      - REPORTER_PASSWORD=reporter
+    volumes:
+      - ./tigase/config/tigase.conf:/home/tigase/tigase-server/etc/tigase.conf
+      - ./tigase/config/config.tdsl:/home/tigase/tigase-server/etc/config.tdsl
+
+
+
+  aasd:
+    image: aasd:latest
+    depends_on:
+      - server_hello
+    environment:
+      - DB_ROOT_USER=admin
+      - DB_ROOT_PASS=admin
+      - ADMIN_JID=admin@server_hello 
+      - ADMIN_PASSWORD=admin
+      - PRICEHANDLER_JID=price_handler@server_hello
+      - PRICEHANDLER_PASSWORD=price_handler
+      - REPORTER_JID=reporter@server_hello
+      - REPORTER_PASSWORD=reporter
+    deploy:
+      resources:
+        limits:
+          cpus: ${CPUS}
+          memory: 512MB
+    
