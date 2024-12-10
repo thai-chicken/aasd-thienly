@@ -9,5 +9,10 @@ docker build -t aasd .
 
 ## Run the container
 ```bash
-docker run -it -v src:/app/src aasd
+docker-compose run --rm --service-ports aasd bash
+```
+
+## Run the app (inside the container)
+```bash
+python src/main.py
 ```

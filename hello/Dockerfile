@@ -7,4 +7,5 @@ RUN pip install spade
 
 # RUN chmod +x src/main.py
 # CMD python -u src/main.py
+
 CMD ["bash"]
