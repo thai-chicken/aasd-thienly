@@ -5,5 +5,6 @@ COPY . /app
 
 RUN pip install spade
 
-RUN chmod +x main.py
-CMD python -u main.py
+# RUN chmod +x src/main.py
+# CMD python -u src/main.py
+CMD ["bash"]

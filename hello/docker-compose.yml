@@ -36,6 +36,5 @@ services:
     deploy:
       resources:
         limits:
-          cpus: ${CPUS}
+          cpus: 4
           memory: 512MB
-    

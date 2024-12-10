@@ -45,6 +45,7 @@ async def main():
 
 if __name__ == "__main__":
     try:
+        print("Starting main")
         spade.run(main())
     except Exception as e:
         print("An error occurred: {}".format(str(e)))
