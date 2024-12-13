@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 services:
   server_hello:
     image: tigase/tigase-xmpp-server:8.0.0
@@ -33,9 +33,10 @@ services:
       - PRICEHANDLER_PASSWORD=price_handler
       - REPORTER_JID=reporter@server_hello
       - REPORTER_PASSWORD=reporter
+    volumes:
+      - ./src:/app/src
     deploy:
       resources:
         limits:
-          cpus: ${CPUS}
+          cpus: "4"
           memory: 512MB
-    
