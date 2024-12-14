@@ -8,12 +8,20 @@ services:
     environment:
       - DB_ROOT_USER=admin
       - DB_ROOT_PASS=admin
-      - ADMIN_JID=admin@server_hello 
+      - ADMIN_JID=admin@server_hello
       - ADMIN_PASSWORD=admin
       - PRICEHANDLER_JID=price_handler@server_hello
       - PRICEHANDLER_PASSWORD=price_handler
       - REPORTER_JID=reporter@server_hello
       - REPORTER_PASSWORD=reporter
+      - GOOGLE_OPINIONHANDLER_JID=google_opinion_handler@server_hello
+      - GOOGLE_OPINIONHANDLER_PASSWORD=google_opinion_handler
+      - BOOKING_OPINIONHANDLER_JID=booking_opinion_handler@server_hello
+      - BOOKING_OPINIONHANDLER_PASSWORD=booking_opinion_handler
+      - FACEBOOK_OPINIONHANDLER_JID=facebook_opinion_handler@server_hello
+      - FACEBOOK_OPINIONHANDLER_PASSWORD=facebook_opinion_handler
+      - TRIPADVISOR_OPINIONHANDLER_JID=tripadvisor_opinion_handler@server_hello
+      - TRIPADVISOR_OPINIONHANDLER_PASSWORD=tripadvisor_opinion_handler
     volumes:
       - ./tigase/config/tigase.conf:/home/tigase/tigase-server/etc/tigase.conf
       - ./tigase/config/config.tdsl:/home/tigase/tigase-server/etc/config.tdsl
@@ -27,16 +35,25 @@ services:
     environment:
       - DB_ROOT_USER=admin
       - DB_ROOT_PASS=admin
-      - ADMIN_JID=admin@server_hello 
+      - ADMIN_JID=admin@server_hello
       - ADMIN_PASSWORD=admin
       - PRICEHANDLER_JID=price_handler@server_hello
       - PRICEHANDLER_PASSWORD=price_handler
       - REPORTER_JID=reporter@server_hello
       - REPORTER_PASSWORD=reporter
+      - GOOGLE_OPINIONHANDLER_JID=google_opinion_handler@server_hello
+      - GOOGLE_OPINIONHANDLER_PASSWORD=google_opinion_handler
+      - BOOKING_OPINIONHANDLER_JID=booking_opinion_handler@server_hello
+      - BOOKING_OPINIONHANDLER_PASSWORD=booking_opinion_handler
+      - FACEBOOK_OPINIONHANDLER_JID=facebook_opinion_handler@server_hello
+      - FACEBOOK_OPINIONHANDLER_PASSWORD=facebook_opinion_handler
+      - TRIPADVISOR_OPINIONHANDLER_JID=tripadvisor_opinion_handler@server_hello
+      - TRIPADVISOR_OPINIONHANDLER_PASSWORD=tripadvisor_opinion_handler
     volumes:
       - ./src:/app/src
+      - ./data:/app/data
     deploy:
       resources:
         limits:
-          cpus: 4
+          cpus: "4"
           memory: 512MB

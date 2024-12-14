@@ -1,0 +1,1074 @@
+{
+  "Kraków": {
+    "ul. Floriańska 3, Dzielnica Stare Miasto": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Stare Miasto",
+            "użytkownik": "AnnaK",
+            "ocena": 5,
+            "opinia": "Niesamowite jedzenie i atmosfera! Restauracja oferuje wyjątkowe dania kuchni polskiej, które zaskakują smakiem. Obsługa była bardzo pomocna i uprzejma, a wnętrze lokalu tworzyło niezapomniany klimat.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Restauracja Wawelska",
+            "użytkownik": "JanKowalski",
+            "ocena": 4,
+            "opinia": "Świetna obsługa i bardzo smaczne jedzenie, choć ceny mogłyby być nieco niższe. Lokal jest trochę zatłoczony w godzinach szczytu, ale mimo to warto odwiedzić dla tego smaku.",
+            "data": "2024-11-25"
+          },
+          {
+            "nazwa": "Restauracja Polska",
+            "użytkownik": "MartaW",
+            "ocena": 3,
+            "opinia": "Jedzenie było dobre, ale nie wybitne. Porcje mogłyby być większe za tę cenę. Lokalizacja w centrum miasta to duży plus, ale wystrój jest dość przeciętny.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 120,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Floriańska",
+            "użytkownik": "KasiaT",
+            "ocena": 5,
+            "opinia": "Fantastyczne miejsce na zakupy! Duży wybór produktów wysokiej jakości, a obsługa jest zawsze gotowa pomóc. Promocje są naprawdę atrakcyjne, szczególnie w okresie świątecznym.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Butik Krakowski",
+            "użytkownik": "MichałB",
+            "ocena": 4,
+            "opinia": "Sklep oferuje szeroki asortyment, ale czasami trudno znaleźć konkretny produkt. Obsługa jest miła, choć czasami można czekać długo przy kasie.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Sklep Floriański",
+            "użytkownik": "PawełJ",
+            "ocena": 3,
+            "opinia": "Zakupy tutaj są w porządku, ale nic wyjątkowego. Ceny są umiarkowane, a jakość produktów odpowiada standardom, ale brakowało mi unikalnych ofert.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 85,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Bazylika Mariacka",
+            "użytkownik": "OlaZ",
+            "ocena": 5,
+            "opinia": "To miejsce jest obowiązkowym punktem wizyty w Krakowie. Historia, architektura i atmosfera są niesamowite. Polecam odwiedzenie z przewodnikiem, aby poznać wszystkie ciekawostki.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Brama Floriańska",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Bardzo ciekawe miejsce, pełne zabytków i urokliwych zakątków. Jednak w weekendy jest bardzo tłoczno, co trochę psuje przyjemność zwiedzania.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Rynek Główny",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 3,
+            "opinia": "Miejsce jest ładne, ale oczekiwałam więcej. Wiele atrakcji wymaga dodatkowej opłaty, co może być irytujące dla turystów.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 140,
+        "średnia_opinii": 4.3,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "al. Adama Mickiewicza 30, Dzielnica Krowodrza": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Bistro Mickiewicza",
+            "użytkownik": "TomaszH",
+            "ocena": 4,
+            "opinia": "Bardzo przyjemne miejsce na lunch. Jedzenie jest dobrze przygotowane, a porcje są wystarczające. Obsługa była szybka i uprzejma, ale brakowało mi nieco bardziej różnorodnego menu.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Restauracja Mickiewiczowska",
+            "użytkownik": "AlicjaB",
+            "ocena": 5,
+            "opinia": "Desery w tym miejscu są po prostu wyjątkowe! Nigdy nie jadłam tak pysznego sernika. Atmosfera była spokojna, co czyni to miejsce idealnym na popołudniowy odpoczynek.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Lunch Bar Królewski",
+            "użytkownik": "GrzegorzD",
+            "ocena": 3,
+            "opinia": "Obsługa była uprzejma, ale jedzenie nie spełniło moich oczekiwań. Dania były przeciętne, a wystrój lokalu dość zwyczajny. Było OK, ale raczej tam nie wrócę.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 90,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Dom Handlowy Mickiewicza",
+            "użytkownik": "ZosiaM",
+            "ocena": 5,
+            "opinia": "Przemiła obsługa i świetny wybór produktów. Ceny są rozsądne, a sklep zawsze wygląda schludnie i uporządkowanie. Polecam każdemu, kto szuka czegoś wyjątkowego.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Centrum Zakupowe Adama",
+            "użytkownik": "PiotrK",
+            "ocena": 4,
+            "opinia": "Zakupy tutaj to zawsze przyjemność. Czasami trzeba chwilę poczekać przy kasie, ale obsługa jest bardzo pomocna.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Butik Elegancja",
+            "użytkownik": "EwaT",
+            "ocena": 3,
+            "opinia": "Nic szczególnego. Standardowy sklep z podstawowym asortymentem. Brakuje mi ciekawszych promocji.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 70,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Pomnik Adama Mickiewicza",
+            "użytkownik": "JacekW",
+            "ocena": 5,
+            "opinia": "Idealne miejsce na spacer. Warto zobaczyć, zwłaszcza wieczorem, kiedy jest podświetlone.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Muzeum Mickiewicza",
+            "użytkownik": "MagdaR",
+            "ocena": 4,
+            "opinia": "Piękne widoki i ciekawe eksponaty. Miejsce pełne historii i uroku.",
+            "data": "2024-11-27"
+          },
+          {
+            "nazwa": "Skwer Mickiewicza",
+            "użytkownik": "KrystianB",
+            "ocena": 3,
+            "opinia": "Nieco przereklamowane, ale warto odwiedzić przy okazji spaceru po okolicy.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 95,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Grodzka 52, Dzielnica Stare Miasto": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Grodzka",
+            "użytkownik": "EwaK",
+            "ocena": 5,
+            "opinia": "Niezwykle klimatyczna restauracja z pysznymi daniami kuchni polskiej. Obsługa była bardzo uprzejma, a wystrój wnętrza wyjątkowo stylowy. Idealne miejsce na romantyczną kolację.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Bistro Historyczne",
+            "użytkownik": "PiotrL",
+            "ocena": 4,
+            "opinia": "Jedzenie było smaczne, a porcje wystarczająco duże. Jednak obsługa mogłaby być nieco szybsza. Lokalizacja w centrum miasta to ogromny atut.",
+            "data": "2024-11-27"
+          },
+          {
+            "nazwa": "Grodzka Lunch Bar",
+            "użytkownik": "MarekZ",
+            "ocena": 3,
+            "opinia": "Przeciętne jedzenie i dość wysokie ceny. Wystrój lokalu jest skromny, ale obsługa była miła. Może lepiej nadaje się na szybki lunch niż na dłuższą wizytę.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 110,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Grodzka",
+            "użytkownik": "KarolinaM",
+            "ocena": 5,
+            "opinia": "Świetne miejsce na zakupy z dużym wyborem produktów i przemiłą obsługą. Sklep jest przestronny, a ceny są bardzo konkurencyjne.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Butik Historyczny",
+            "użytkownik": "OskarL",
+            "ocena": 4,
+            "opinia": "Polecam ten sklep każdemu, kto szuka oryginalnych prezentów. Czasami trudno znaleźć parking w pobliżu, ale oferta wynagradza te niedogodności.",
+            "data": "2024-11-29"
+          },
+          {
+            "nazwa": "Grodzka Market",
+            "użytkownik": "AnnaW",
+            "ocena": 3,
+            "opinia": "Ceny są w porządku, ale wybór mógłby być większy. Brakowało mi niektórych produktów, których się spodziewałam w takim miejscu.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 100,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Kościół Św. Piotra i Pawła",
+            "użytkownik": "AgnieszkaT",
+            "ocena": 5,
+            "opinia": "Przepiękny kościół pełen historycznych detali. Polecam wszystkim miłośnikom architektury sakralnej. Atmosfera jest spokojna i sprzyja refleksji.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Ulica Grodzka",
+            "użytkownik": "PawełR",
+            "ocena": 4,
+            "opinia": "Ulica jest bardzo urokliwa i pełna ciekawych miejsc do odwiedzenia. Warto przejść się tutaj wieczorem, gdy wszystko jest oświetlone.",
+            "data": "2024-11-20"
+          },
+          {
+            "nazwa": "Plac Dominikański",
+            "użytkownik": "KrzysztofB",
+            "ocena": 3,
+            "opinia": "Miejsce ma potencjał, ale jest trochę zbyt tłoczne w weekendy. Warto zobaczyć, ale lepiej wybrać się rano.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 130,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Szeroka 24, Dzielnica Stare Miasto": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Szeroka",
+            "użytkownik": "KasiaP",
+            "ocena": 5,
+            "opinia": "Jedzenie było po prostu wyśmienite! Szczególnie polecam pierogi z mięsem, które są najlepsze w Krakowie. Obsługa była bardzo miła i profesjonalna.",
+            "data": "2024-12-05"
+          },
+          {
+            "nazwa": "Bistro Kazimierz",
+            "użytkownik": "MaciejR",
+            "ocena": 4,
+            "opinia": "Bardzo dobre jedzenie, ale trochę długo czekałem na obsługę. Wystrój lokalu jest bardzo klimatyczny, idealny na spotkanie ze znajomymi.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Lunch Bar Szeroka",
+            "użytkownik": "JuliaN",
+            "ocena": 3,
+            "opinia": "Jedzenie było w porządku, ale bez rewelacji. Porcje mogłyby być większe. Dobre miejsce na szybki posiłek w biegu.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 95,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Szeroka",
+            "użytkownik": "MagdalenaT",
+            "ocena": 5,
+            "opinia": "Ogromny wybór lokalnych produktów i pamiątek. Sklep jest bardzo dobrze zorganizowany, a obsługa zna się na rzeczy.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Butik Kazimierski",
+            "użytkownik": "TomaszL",
+            "ocena": 4,
+            "opinia": "Świetne miejsce na zakupy z wyjątkowymi ofertami. Trochę drogo, ale jakość produktów jest tego warta.",
+            "data": "2024-11-29"
+          },
+          {
+            "nazwa": "Sklep Szeroka",
+            "użytkownik": "NataliaM",
+            "ocena": 3,
+            "opinia": "Sklep był dobrze zaopatrzony, ale brakowało mi promocji. Obsługa była jednak bardzo miła.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 75,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Synagoga Remuh",
+            "użytkownik": "JacekM",
+            "ocena": 5,
+            "opinia": "Wspaniałe miejsce o ogromnym znaczeniu historycznym. Synagoga jest pięknie zachowana, a atmosfera jest wyjątkowa.",
+            "data": "2024-12-04"
+          },
+          {
+            "nazwa": "Plac Szeroka",
+            "użytkownik": "AgnieszkaK",
+            "ocena": 4,
+            "opinia": "Bardzo urokliwe miejsce, pełne restauracji i kawiarni. Polecam spacer w tej okolicy o zachodzie słońca.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Cmentarz Remuh",
+            "użytkownik": "KarolinaW",
+            "ocena": 3,
+            "opinia": "Miejsce ciekawe, ale brakuje tam informacji dla turystów. Warto odwiedzić, ale niekoniecznie priorytetowo.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 115,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Królewska 57, Dzielnica Krowodrza": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Królewska",
+            "użytkownik": "BartekT",
+            "ocena": 5,
+            "opinia": "Fantastyczne jedzenie i świetna obsługa! Szczególnie polecam ich steki oraz desery. Restauracja ma elegancki wystrój, idealny na wyjątkowe okazje.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Bistro Przy Królewskiej",
+            "użytkownik": "OlgaM",
+            "ocena": 4,
+            "opinia": "Bardzo smaczne dania i miła atmosfera. Obsługa była szybka, ale ceny są trochę wyższe niż oczekiwałem. Mimo to, warto spróbować.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Lunch Bar Królewski",
+            "użytkownik": "DarekJ",
+            "ocena": 3,
+            "opinia": "Jedzenie było w porządku, ale nie wyróżniało się niczym szczególnym. Lokal jest odpowiedni na szybki posiłek, ale nie na większe wyjście.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 80,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Królewska",
+            "użytkownik": "KatarzynaM",
+            "ocena": 5,
+            "opinia": "Świetne miejsce na zakupy! Bardzo duży wybór sklepów i świetne promocje. Obsługa była bardzo pomocna i miła.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Butik Elegancja",
+            "użytkownik": "ŁukaszP",
+            "ocena": 4,
+            "opinia": "Dobre miejsce, aby znaleźć coś wyjątkowego. Ceny nieco wysokie, ale jakość produktów jest tego warta. Polecam odwiedzić.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Sklep Rodzinny",
+            "użytkownik": "EwaT",
+            "ocena": 3,
+            "opinia": "Ceny są rozsądne, ale asortyment jest dość ograniczony. Obsługa była jednak bardzo miła i pomocna.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 65,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Park Królewski",
+            "użytkownik": "MateuszW",
+            "ocena": 5,
+            "opinia": "Przepiękne miejsce na spacer i relaks. Park jest dobrze utrzymany, a alejki są idealne do biegania. Polecam odwiedzić wiosną, gdy wszystko kwitnie.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Pomnik Królów Polskich",
+            "użytkownik": "AnnaR",
+            "ocena": 4,
+            "opinia": "Ciekawa atrakcja historyczna, idealna na rodzinny spacer. Warto zobaczyć, ale brak jest dodatkowych informacji dla turystów.",
+            "data": "2024-11-25"
+          },
+          {
+            "nazwa": "Skwer Królewski",
+            "użytkownik": "TomaszK",
+            "ocena": 3,
+            "opinia": "Miejsce jest przyjemne, ale niezbyt duże. Dobre na krótką przerwę w ciągu dnia, ale niekoniecznie coś, co trzeba zobaczyć.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 90,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "os. Centrum E 2, Dzielnica Nowa Huta": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Huta Smaku",
+            "użytkownik": "MichałB",
+            "ocena": 5,
+            "opinia": "Jedzenie tutaj było fantastyczne! Szczególnie polecam żurek oraz kotlet schabowy. Lokal ma wyjątkowy klimat nawiązujący do historii Nowej Huty.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Bar Mleczny Nowa Huta",
+            "użytkownik": "AniaW",
+            "ocena": 4,
+            "opinia": "Smaczne i domowe dania w przystępnych cenach. Lokal jest bardzo popularny, więc czasami trzeba poczekać na stolik, ale warto.",
+            "data": "2024-11-25"
+          },
+          {
+            "nazwa": "Lunch Bar Osiedlowy",
+            "użytkownik": "KamilS",
+            "ocena": 3,
+            "opinia": "Jedzenie było w porządku, ale lokal wymagałby lekkiego odświeżenia. Dobre miejsce na szybki obiad w biegu.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 70,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Centrum Handlowe Huta",
+            "użytkownik": "AleksandraM",
+            "ocena": 5,
+            "opinia": "Bardzo dobrze zaopatrzony sklep z miłą obsługą. Można tu znaleźć praktycznie wszystko, od ubrań po elektronikę. Ceny są bardzo konkurencyjne.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Pasaż Osiedlowy",
+            "użytkownik": "KrzysztofW",
+            "ocena": 4,
+            "opinia": "Dobre miejsce na zakupy codzienne. Sklep jest czysty i dobrze zorganizowany, ale wybór produktów mógłby być większy.",
+            "data": "2024-11-27"
+          },
+          {
+            "nazwa": "Sklep Spożywczy Centrum",
+            "użytkownik": "JoannaR",
+            "ocena": 3,
+            "opinia": "Asortyment jest w porządku, ale obsługa czasami była nieco nieuprzejma. Ceny są przystępne, ale niektóre produkty były trudno dostępne.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 60,
+        "średnia_opinii": 3.9,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Plac Centralny",
+            "użytkownik": "BarbaraL",
+            "ocena": 5,
+            "opinia": "Historyczne miejsce pełne ciekawych opowieści. Plac jest świetnie zachowany i warto tu spędzić trochę czasu, zwłaszcza podczas lokalnych wydarzeń.",
+            "data": "2024-12-04"
+          },
+          {
+            "nazwa": "Aleja Róż",
+            "użytkownik": "PawełN",
+            "ocena": 4,
+            "opinia": "Bardzo urokliwe miejsce na spacer. Warto odwiedzić i dowiedzieć się więcej o historii Nowej Huty.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Teatr Ludowy",
+            "użytkownik": "MonikaK",
+            "ocena": 3,
+            "opinia": "Spektakle są w porządku, ale repertuar mógłby być bardziej zróżnicowany. Miejsce ma potencjał, ale wymaga większej promocji.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 85,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    }
+  },
+  "Warszawa": {
+    "ul. Nowy Świat 66, Dzielnica Śródmieście": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Nowy Świat",
+            "użytkownik": "MartaK",
+            "ocena": 5,
+            "opinia": "Jedzenie na najwyższym poziomie! Szczególnie polecam kaczki z jabłkami i zupę grzybową. Lokal jest elegancki, a obsługa bardzo profesjonalna.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Bistro Śródmiejskie",
+            "użytkownik": "JanL",
+            "ocena": 4,
+            "opinia": "Bardzo dobre jedzenie w rozsądnych cenach. Obsługa była pomocna, ale w godzinach szczytu trzeba trochę poczekać na stolik.",
+            "data": "2024-11-25"
+          },
+          {
+            "nazwa": "Cafe Nowy Świat",
+            "użytkownik": "AnnaZ",
+            "ocena": 3,
+            "opinia": "Desery były smaczne, ale kawa nie spełniła moich oczekiwań. Wystrój lokalu jest bardzo stylowy, idealny na krótką przerwę.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 120,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Nowy Świat",
+            "użytkownik": "KasiaP",
+            "ocena": 5,
+            "opinia": "Świetne miejsce na zakupy, dużo znanych marek i ciekawe promocje. Obsługa bardzo miła i pomocna. Na pewno wrócę!",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Butik Śródmiejski",
+            "użytkownik": "ŁukaszM",
+            "ocena": 4,
+            "opinia": "Dobry wybór ubrań, choć ceny są trochę wysokie. Polecam odwiedzić w trakcie sezonowych wyprzedaży.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Księgarnia Nowy Świat",
+            "użytkownik": "TomaszW",
+            "ocena": 3,
+            "opinia": "Dobre miejsce dla miłośników książek, choć wybór mógłby być większy. Obsługa bardzo kompetentna.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 90,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Pomnik Kopernika",
+            "użytkownik": "PawełT",
+            "ocena": 5,
+            "opinia": "Ikoniczne miejsce w Warszawie, które warto zobaczyć. Historia i architektura robią ogromne wrażenie.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Ulica Nowy Świat",
+            "użytkownik": "KarolinaL",
+            "ocena": 4,
+            "opinia": "Bardzo urokliwa ulica pełna restauracji i sklepów. Polecam spacer w godzinach wieczornych, gdy całość jest pięknie oświetlona.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Muzeum Fryderyka Chopina",
+            "użytkownik": "MichałB",
+            "ocena": 3,
+            "opinia": "Ciekawe eksponaty, ale brakowało mi przewodnika, który mógłby opowiedzieć więcej o życiu Chopina.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 130,
+        "średnia_opinii": 4.3,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "Al. Jerozolimskie 54, Dzielnica Śródmieście": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Jerozolimskie",
+            "użytkownik": "MarekS",
+            "ocena": 5,
+            "opinia": "Wyjątkowe jedzenie i przyjazna obsługa! Dania są pięknie podane, a atmosfera lokalu bardzo przyjemna. Idealne miejsce na kolację.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Bistro Aleje",
+            "użytkownik": "JoannaR",
+            "ocena": 4,
+            "opinia": "Smaczne jedzenie i szybka obsługa. Lokal ma ładny wystrój, choć jest trochę tłoczno w godzinach szczytu.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Cafe Jerozolimskie",
+            "użytkownik": "BartekL",
+            "ocena": 3,
+            "opinia": "Kawa była dobra, ale ciasta nie spełniły moich oczekiwań. Ceny są dość wysokie jak na tę lokalizację.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 100,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Centrum Zakupowe Aleje",
+            "użytkownik": "EwaM",
+            "ocena": 5,
+            "opinia": "Świetny wybór sklepów, szczególnie jeśli chodzi o elektronikę. Obsługa była bardzo kompetentna i pomocna.",
+            "data": "2024-12-04"
+          },
+          {
+            "nazwa": "Butik Jerozolimski",
+            "użytkownik": "TomaszP",
+            "ocena": 4,
+            "opinia": "Ceny są wysokie, ale jakość produktów jest znakomita. Sklep jest dobrze zorganizowany i łatwo znaleźć to, czego się szuka.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Księgarnia Aleje",
+            "użytkownik": "MagdaW",
+            "ocena": 3,
+            "opinia": "Dobry wybór książek, ale brakowało mi nowości. Obsługa była jednak bardzo miła i pomocna.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 80,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Dworzec Centralny",
+            "użytkownik": "RobertK",
+            "ocena": 5,
+            "opinia": "Imponujący budynek pełen życia i historii. Idealne miejsce, by poczuć atmosferę Warszawy.",
+            "data": "2024-12-05"
+          },
+          {
+            "nazwa": "Plac Zawiszy",
+            "użytkownik": "AgnieszkaL",
+            "ocena": 4,
+            "opinia": "Ciekawe miejsce z dużą ilością kawiarni i restauracji. Polecam spacer w okolicy, szczególnie wieczorem.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Park Śródmiejski",
+            "użytkownik": "MichałT",
+            "ocena": 3,
+            "opinia": "Ładne miejsce na krótki odpoczynek, ale brak tam szczególnych atrakcji. Dobre na przerwę w ciągu dnia.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 110,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Puławska 2, Dzielnica Mokotów": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Mokotowska",
+            "użytkownik": "KarolinaL",
+            "ocena": 5,
+            "opinia": "Wyjątkowe miejsce z przepysznym jedzeniem! Kaczka w sosie malinowym to najlepsze danie, jakie próbowałam. Obsługa bardzo profesjonalna i przyjazna.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Bistro Puławska",
+            "użytkownik": "MichałR",
+            "ocena": 4,
+            "opinia": "Dania są smaczne, porcje wystarczające, a ceny przystępne. Jedyny minus to czas oczekiwania w godzinach szczytu.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Lunch Bar Puławski",
+            "użytkownik": "AnnaT",
+            "ocena": 3,
+            "opinia": "Jedzenie w porządku, ale nic specjalnego. Lokal jest mały i dość głośny w porze obiadowej.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 90,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Mokotów",
+            "użytkownik": "EwaK",
+            "ocena": 5,
+            "opinia": "Świetne miejsce na zakupy! Duży wybór sklepów, ciekawe promocje i miła obsługa. Na pewno tu wrócę.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Butik Modny Mokotów",
+            "użytkownik": "JanP",
+            "ocena": 4,
+            "opinia": "Dobre miejsce na zakupy, choć ceny mogłyby być nieco niższe. Duży plus za jakość produktów.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Księgarnia Mokotowska",
+            "użytkownik": "KatarzynaZ",
+            "ocena": 3,
+            "opinia": "Dobra księgarnia, ale wybór książek mógłby być większy. Obsługa bardzo pomocna.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 75,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Park Puławski",
+            "użytkownik": "TomaszK",
+            "ocena": 5,
+            "opinia": "Piękne miejsce na spacer, szczególnie wiosną i latem. Cicha okolica i dużo zieleni. Idealne na relaks po pracy.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Skwer Mokotowski",
+            "użytkownik": "OlgaM",
+            "ocena": 4,
+            "opinia": "Bardzo przyjemne miejsce na odpoczynek, ale brakuje dodatkowych atrakcji. Polecam na krótki spacer.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Pomnik Niepodległości Mokotów",
+            "użytkownik": "BartekP",
+            "ocena": 3,
+            "opinia": "Ciekawa atrakcja historyczna, ale brak informacji dla turystów. Dobre miejsce na szybkie zwiedzanie.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 100,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Targowa 59, Dzielnica Praga-Północ": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Praska",
+            "użytkownik": "RobertK",
+            "ocena": 5,
+            "opinia": "Fantastyczne jedzenie i przemiła obsługa! Szczególnie polecam tradycyjny żurek oraz pierogi. Wyjątkowy klimat lokalu.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Bistro Targowa",
+            "użytkownik": "MagdaT",
+            "ocena": 4,
+            "opinia": "Smaczne jedzenie i szybka obsługa. Lokal jest mały, ale bardzo przytulny. Polecam na lunch.",
+            "data": "2024-11-27"
+          },
+          {
+            "nazwa": "Bar Mleczny Targowa",
+            "użytkownik": "KamilW",
+            "ocena": 3,
+            "opinia": "Jedzenie w porządku, ale nic szczególnego. Ceny są przystępne, ale lokal wymaga odświeżenia.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 80,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Praga",
+            "użytkownik": "AgnieszkaR",
+            "ocena": 5,
+            "opinia": "Bardzo dobrze zaopatrzony sklep z przemiłą obsługą. Duży wybór produktów w przystępnych cenach.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Butik Praski",
+            "użytkownik": "TomaszL",
+            "ocena": 4,
+            "opinia": "Dobre miejsce na zakupy, szczególnie jeśli szukasz czegoś unikatowego. Ceny nieco wysokie.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Targowisko Targowa",
+            "użytkownik": "EwaP",
+            "ocena": 3,
+            "opinia": "Ciekawe miejsce na zakupy, ale czasami tłoczno. Wybór produktów jest dobry, ale nie rewelacyjny.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 70,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Warszawskiej Pragi",
+            "użytkownik": "PiotrK",
+            "ocena": 5,
+            "opinia": "Niezwykle ciekawe muzeum z bogatą historią. Ekspozycje są bardzo dobrze przygotowane, a atmosfera jest wyjątkowa.",
+            "data": "2024-12-04"
+          },
+          {
+            "nazwa": "Ulica Targowa",
+            "użytkownik": "NataliaM",
+            "ocena": 4,
+            "opinia": "Ulica ma swój niepowtarzalny klimat. Warto odwiedzić ją wieczorem, kiedy wszystko jest oświetlone.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Teatr Praski",
+            "użytkownik": "KrzysztofW",
+            "ocena": 3,
+            "opinia": "Ciekawy repertuar, ale sam budynek wymaga renowacji. Warto odwiedzić, jeśli interesujesz się sztuką.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 90,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Grochowska 200, Dzielnica Praga-Południe": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Grochowska",
+            "użytkownik": "JoannaL",
+            "ocena": 5,
+            "opinia": "Przepyszne dania, szczególnie pierogi z mięsem. Obsługa była bardzo profesjonalna, a wystrój lokalu przytulny.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Bistro Południe",
+            "użytkownik": "TomaszR",
+            "ocena": 4,
+            "opinia": "Jedzenie było smaczne, a obsługa szybka. Lokal ma bardzo przyjemny klimat, ale ceny są dość wysokie.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Lunch Bar Grochowska",
+            "użytkownik": "AnnaZ",
+            "ocena": 3,
+            "opinia": "Jedzenie było w porządku, ale brakowało mi bardziej różnorodnego menu. Dobre miejsce na szybki obiad.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 85,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Południowa",
+            "użytkownik": "RobertP",
+            "ocena": 5,
+            "opinia": "Świetne miejsce na zakupy! Duży wybór produktów, przystępne ceny i miła obsługa.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Butik Grochowski",
+            "użytkownik": "OlgaW",
+            "ocena": 4,
+            "opinia": "Ciekawy sklep z oryginalnymi ubraniami. Ceny są trochę wysokie, ale warto odwiedzić.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Centrum Zakupowe Grochowska",
+            "użytkownik": "KasiaT",
+            "ocena": 3,
+            "opinia": "Zakupy w porządku, ale brakuje lepszej organizacji w sklepie. Obsługa jednak była pomocna.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 75,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Park Praski Południowy",
+            "użytkownik": "MateuszK",
+            "ocena": 5,
+            "opinia": "Piękne miejsce na rodzinny spacer. Dużo zieleni i ładne alejki. Polecam odwiedzić w weekend.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Pomnik Pragi Południe",
+            "użytkownik": "AgnieszkaL",
+            "ocena": 4,
+            "opinia": "Ciekawa atrakcja, ale brakuje informacji dla zwiedzających. Idealne miejsce na szybki spacer.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Teatr Południowy",
+            "użytkownik": "MichałW",
+            "ocena": 3,
+            "opinia": "Spektakle są dobre, ale repertuar nie jest zbyt zróżnicowany. Budynek wymaga lekkiej modernizacji.",
+            "data": "2024-11-18"
+          }
+        ],
+        "liczba_opinii": 80,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Marynarska 15, Dzielnica Mokotów": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Marynarska",
+            "użytkownik": "EwaK",
+            "ocena": 5,
+            "opinia": "Jedzenie było wyśmienite! Szczególnie polecam tatar wołowy oraz świeże owoce morza. Obsługa była na najwyższym poziomie.",
+            "data": "2024-12-02"
+          },
+          {
+            "nazwa": "Bistro Mokotów",
+            "użytkownik": "JanW",
+            "ocena": 4,
+            "opinia": "Dobre miejsce na szybki lunch. Jedzenie jest smaczne, choć ceny mogłyby być nieco niższe.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Lunch Bar Marynarska",
+            "użytkownik": "KasiaZ",
+            "ocena": 3,
+            "opinia": "Jedzenie w porządku, ale nic szczególnego. Lokalizacja jest jednak bardzo dogodna.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 85,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Marynarska",
+            "użytkownik": "RobertM",
+            "ocena": 5,
+            "opinia": "Świetny wybór sklepów, szczególnie z elektroniką. Obsługa bardzo pomocna, a ceny są przystępne.",
+            "data": "2024-12-03"
+          },
+          {
+            "nazwa": "Butik Mokotowski",
+            "użytkownik": "MagdalenaR",
+            "ocena": 4,
+            "opinia": "Dobre miejsce na zakupy z ciekawymi ofertami. Ceny są trochę wysokie, ale jakość jest tego warta.",
+            "data": "2024-11-30"
+          },
+          {
+            "nazwa": "Centrum Zakupowe Marynarska",
+            "użytkownik": "JoannaT",
+            "ocena": 3,
+            "opinia": "Dobry wybór produktów, ale obsługa mogłaby być bardziej zaangażowana. Organizacja sklepu też mogłaby być lepsza.",
+            "data": "2024-11-20"
+          }
+        ],
+        "liczba_opinii": 75,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Park Marynarski",
+            "użytkownik": "TomaszL",
+            "ocena": 5,
+            "opinia": "Przepiękny park, idealny na rodzinne spacery. Dużo miejsca do zabawy dla dzieci i spokojne alejki dla dorosłych.",
+            "data": "2024-12-01"
+          },
+          {
+            "nazwa": "Plac Mokotowski",
+            "użytkownik": "AnnaM",
+            "ocena": 4,
+            "opinia": "Ciche miejsce na relaks w środku miasta. Warto odwiedzić, choć brakuje dodatkowych atrakcji.",
+            "data": "2024-11-28"
+          },
+          {
+            "nazwa": "Pomnik Marynarzy",
+            "użytkownik": "KrzysztofW",
+            "ocena": 3,
+            "opinia": "Ciekawa atrakcja, ale wymaga renowacji. Dobre miejsce na krótki spacer.",
+            "data": "2024-11-15"
+          }
+        ],
+        "liczba_opinii": 90,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    }
+  }
+}

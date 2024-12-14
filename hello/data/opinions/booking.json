@@ -1,0 +1,1074 @@
+{
+  "Kraków": {
+    "ul. Floriańska 3, Dzielnica Stare Miasto": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Polska",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-11-03"
+          },
+          {
+            "nazwa": "Teatr Stare Miasto",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 2,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-03-30"
+          },
+          {
+            "nazwa": "Park Europa",
+            "użytkownik": "OlaZ",
+            "ocena": 3,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-02-08"
+          }
+        ],
+        "liczba_opinii": 140,
+        "średnia_opinii": 4.5,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Złoty Rog",
+            "użytkownik": "MichałB",
+            "ocena": 5,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-09-20"
+          },
+          {
+            "nazwa": "Bar Wawelska",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-09-09"
+          },
+          {
+            "nazwa": "Zamek Królewska",
+            "użytkownik": "AnnaK",
+            "ocena": 1,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-09-29"
+          }
+        ],
+        "liczba_opinii": 179,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Bar Nowa Era",
+            "użytkownik": "KasiaT",
+            "ocena": 5,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-04-20"
+          },
+          {
+            "nazwa": "Teatr Królewska",
+            "użytkownik": "JanKowalski",
+            "ocena": 3,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-01-24"
+          },
+          {
+            "nazwa": "Teatr Floriańska",
+            "użytkownik": "JanKowalski",
+            "ocena": 2,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-11-06"
+          }
+        ],
+        "liczba_opinii": 129,
+        "średnia_opinii": 3.5,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "al. Adama Mickiewicza 30, Dzielnica Krowodrza": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Zamek Nowa Era",
+            "użytkownik": "AnnaK",
+            "ocena": 4,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-07-20"
+          },
+          {
+            "nazwa": "Park Pod Smokiem",
+            "użytkownik": "MichałB",
+            "ocena": 4,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-06-26"
+          },
+          {
+            "nazwa": "Bar Wawelska",
+            "użytkownik": "MichałB",
+            "ocena": 5,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-03-27"
+          }
+        ],
+        "liczba_opinii": 57,
+        "średnia_opinii": 4.8,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Złoty Rog",
+            "użytkownik": "JanKowalski",
+            "ocena": 4,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-01-03"
+          },
+          {
+            "nazwa": "Park Europa",
+            "użytkownik": "MateuszL",
+            "ocena": 1,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-09-22"
+          },
+          {
+            "nazwa": "Restauracja Nowa Era",
+            "użytkownik": "KasiaT",
+            "ocena": 2,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-10-30"
+          }
+        ],
+        "liczba_opinii": 105,
+        "średnia_opinii": 3.3,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Europa",
+            "użytkownik": "MichałB",
+            "ocena": 2,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-05-18"
+          },
+          {
+            "nazwa": "Muzeum Złoty Rog",
+            "użytkownik": "MateuszL",
+            "ocena": 1,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-01-22"
+          },
+          {
+            "nazwa": "Bar Wawelska",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-05-15"
+          }
+        ],
+        "liczba_opinii": 75,
+        "średnia_opinii": 3.6,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Grodzka 52, Dzielnica Stare Miasto": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Pub Polska",
+            "użytkownik": "OlaZ",
+            "ocena": 2,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-01-01"
+          },
+          {
+            "nazwa": "Teatr Kulturalna",
+            "użytkownik": "MateuszL",
+            "ocena": 2,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-05-25"
+          },
+          {
+            "nazwa": "Muzeum Floriańska",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-05-01"
+          }
+        ],
+        "liczba_opinii": 60,
+        "średnia_opinii": 4.6,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Europa",
+            "użytkownik": "MateuszL",
+            "ocena": 5,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2023-12-28"
+          },
+          {
+            "nazwa": "Bar Europa",
+            "użytkownik": "MartaW",
+            "ocena": 3,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-07-02"
+          },
+          {
+            "nazwa": "Restauracja Królewska",
+            "użytkownik": "AnnaK",
+            "ocena": 4,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-03-26"
+          }
+        ],
+        "liczba_opinii": 85,
+        "średnia_opinii": 3.4,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Pub Pod Smokiem",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-12-10"
+          },
+          {
+            "nazwa": "Muzeum Europa",
+            "użytkownik": "MartaW",
+            "ocena": 2,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-10-24"
+          },
+          {
+            "nazwa": "Kawiarnia Europa",
+            "użytkownik": "AnnaK",
+            "ocena": 1,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2023-12-28"
+          }
+        ],
+        "liczba_opinii": 129,
+        "średnia_opinii": 4.5,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Szeroka 24, Dzielnica Stare Miasto": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Kawiarnia Polska",
+            "użytkownik": "MartaW",
+            "ocena": 3,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2023-12-31"
+          },
+          {
+            "nazwa": "Zamek Wawelska",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-02-06"
+          },
+          {
+            "nazwa": "Teatr Wawelska",
+            "użytkownik": "MartaW",
+            "ocena": 4,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-07-04"
+          }
+        ],
+        "liczba_opinii": 177,
+        "średnia_opinii": 3.7,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Teatr Wawelska",
+            "użytkownik": "KasiaT",
+            "ocena": 1,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-07-20"
+          },
+          {
+            "nazwa": "Restauracja Nowa Era",
+            "użytkownik": "MartaW",
+            "ocena": 2,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-12-07"
+          },
+          {
+            "nazwa": "Bar Polska",
+            "użytkownik": "MateuszL",
+            "ocena": 1,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-06-22"
+          }
+        ],
+        "liczba_opinii": 82,
+        "średnia_opinii": 3.7,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Polska",
+            "użytkownik": "MateuszL",
+            "ocena": 3,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-10-29"
+          },
+          {
+            "nazwa": "Park Złoty Rog",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 2,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-07-16"
+          },
+          {
+            "nazwa": "Bar Polska",
+            "użytkownik": "KasiaT",
+            "ocena": 5,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-04-18"
+          }
+        ],
+        "liczba_opinii": 147,
+        "średnia_opinii": 4.8,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Królewska 57, Dzielnica Krowodrza": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Hotel Nowa Era",
+            "użytkownik": "JanKowalski",
+            "ocena": 5,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-03-29"
+          },
+          {
+            "nazwa": "Kawiarnia Polska",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-05-21"
+          },
+          {
+            "nazwa": "Muzeum Floriańska",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 5,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-01-19"
+          }
+        ],
+        "liczba_opinii": 147,
+        "średnia_opinii": 3.5,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Wawelska",
+            "użytkownik": "MateuszL",
+            "ocena": 3,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-11-14"
+          },
+          {
+            "nazwa": "Pub Królewska",
+            "użytkownik": "JanKowalski",
+            "ocena": 5,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-05-06"
+          },
+          {
+            "nazwa": "Galeria Królewska",
+            "użytkownik": "PawełJ",
+            "ocena": 2,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-10-18"
+          }
+        ],
+        "liczba_opinii": 96,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Teatr Polska",
+            "użytkownik": "KasiaT",
+            "ocena": 1,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-09-09"
+          },
+          {
+            "nazwa": "Hotel Nowa Era",
+            "użytkownik": "JanKowalski",
+            "ocena": 5,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-08-23"
+          },
+          {
+            "nazwa": "Zamek Kulturalna",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 4,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-03-08"
+          }
+        ],
+        "liczba_opinii": 177,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "os. Centrum E 2, Dzielnica Nowa Huta": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Hotel Kulturalna",
+            "użytkownik": "OlaZ",
+            "ocena": 3,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-07-29"
+          },
+          {
+            "nazwa": "Teatr Złoty Rog",
+            "użytkownik": "MateuszL",
+            "ocena": 1,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2023-12-27"
+          },
+          {
+            "nazwa": "Pub Wawelska",
+            "użytkownik": "JanKowalski",
+            "ocena": 3,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-04-11"
+          }
+        ],
+        "liczba_opinii": 196,
+        "średnia_opinii": 4.5,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Teatr Pod Smokiem",
+            "użytkownik": "MartaW",
+            "ocena": 2,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-01-05"
+          },
+          {
+            "nazwa": "Galeria Floriańska",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 2,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-01-24"
+          },
+          {
+            "nazwa": "Teatr Kulturalna",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 5,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-04-13"
+          }
+        ],
+        "liczba_opinii": 122,
+        "średnia_opinii": 4.6,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Teatr Polska",
+            "użytkownik": "AnnaK",
+            "ocena": 3,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-02-06"
+          },
+          {
+            "nazwa": "Restauracja Nowa Era",
+            "użytkownik": "KasiaT",
+            "ocena": 4,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-08-06"
+          },
+          {
+            "nazwa": "Muzeum Pod Smokiem",
+            "użytkownik": "PawełJ",
+            "ocena": 5,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-04-03"
+          }
+        ],
+        "liczba_opinii": 95,
+        "średnia_opinii": 4.4,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    }
+  },
+  "Warszawa": {
+    "ul. Nowy Świat 66, Dzielnica Śródmieście": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Teatr Złoty Rog",
+            "użytkownik": "PawełJ",
+            "ocena": 1,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-12-08"
+          },
+          {
+            "nazwa": "Pub Stare Miasto",
+            "użytkownik": "PawełJ",
+            "ocena": 2,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-11-26"
+          },
+          {
+            "nazwa": "Hotel Polska",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-03-06"
+          }
+        ],
+        "liczba_opinii": 139,
+        "średnia_opinii": 4.7,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Pod Smokiem",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-05-02"
+          },
+          {
+            "nazwa": "Park Wawelska",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-02-13"
+          },
+          {
+            "nazwa": "Pub Polska",
+            "użytkownik": "AnnaK",
+            "ocena": 1,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-11-23"
+          }
+        ],
+        "liczba_opinii": 84,
+        "średnia_opinii": 3.6,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Polska",
+            "użytkownik": "MateuszL",
+            "ocena": 3,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-10-19"
+          },
+          {
+            "nazwa": "Zamek Stare Miasto",
+            "użytkownik": "MichałB",
+            "ocena": 2,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-11-23"
+          },
+          {
+            "nazwa": "Pub Nowa Era",
+            "użytkownik": "AnnaK",
+            "ocena": 2,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-03-14"
+          }
+        ],
+        "liczba_opinii": 82,
+        "średnia_opinii": 3.7,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "Al. Jerozolimskie 54, Dzielnica Śródmieście": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Nowa Era",
+            "użytkownik": "AnnaK",
+            "ocena": 4,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-09-12"
+          },
+          {
+            "nazwa": "Hotel Floriańska",
+            "użytkownik": "PawełJ",
+            "ocena": 3,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-09-30"
+          },
+          {
+            "nazwa": "Hotel Stare Miasto",
+            "użytkownik": "JanKowalski",
+            "ocena": 4,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-09-09"
+          }
+        ],
+        "liczba_opinii": 64,
+        "średnia_opinii": 4.7,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Zamek Polska",
+            "użytkownik": "KasiaT",
+            "ocena": 2,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-11-16"
+          },
+          {
+            "nazwa": "Muzeum Pod Smokiem",
+            "użytkownik": "KasiaT",
+            "ocena": 1,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-10-31"
+          },
+          {
+            "nazwa": "Muzeum Nowa Era",
+            "użytkownik": "JanKowalski",
+            "ocena": 4,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-06-22"
+          }
+        ],
+        "liczba_opinii": 123,
+        "średnia_opinii": 4.4,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Kawiarnia Nowa Era",
+            "użytkownik": "MartaW",
+            "ocena": 5,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-01-31"
+          },
+          {
+            "nazwa": "Park Królewska",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 3,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-06-20"
+          },
+          {
+            "nazwa": "Teatr Europa",
+            "użytkownik": "OlaZ",
+            "ocena": 5,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2023-12-22"
+          }
+        ],
+        "liczba_opinii": 91,
+        "średnia_opinii": 4.8,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Puławska 2, Dzielnica Mokotów": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Pub Stare Miasto",
+            "użytkownik": "PawełJ",
+            "ocena": 3,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-11-29"
+          },
+          {
+            "nazwa": "Galeria Wawelska",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-10-27"
+          },
+          {
+            "nazwa": "Muzeum Nowa Era",
+            "użytkownik": "JanKowalski",
+            "ocena": 5,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-08-23"
+          }
+        ],
+        "liczba_opinii": 125,
+        "średnia_opinii": 4.3,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Bar Stare Miasto",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-08-19"
+          },
+          {
+            "nazwa": "Hotel Królewska",
+            "użytkownik": "JanKowalski",
+            "ocena": 2,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-09-17"
+          },
+          {
+            "nazwa": "Hotel Nowa Era",
+            "użytkownik": "MichałB",
+            "ocena": 5,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-10-27"
+          }
+        ],
+        "liczba_opinii": 98,
+        "średnia_opinii": 3.6,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Restauracja Pod Smokiem",
+            "użytkownik": "MartaW",
+            "ocena": 5,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-11-15"
+          },
+          {
+            "nazwa": "Pub Kulturalna",
+            "użytkownik": "AnnaK",
+            "ocena": 2,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-06-10"
+          },
+          {
+            "nazwa": "Bar Floriańska",
+            "użytkownik": "JanKowalski",
+            "ocena": 1,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2023-12-31"
+          }
+        ],
+        "liczba_opinii": 156,
+        "średnia_opinii": 4.1,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Targowa 59, Dzielnica Praga-Północ": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Teatr Wawelska",
+            "użytkownik": "PawełJ",
+            "ocena": 4,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-08-19"
+          },
+          {
+            "nazwa": "Kawiarnia Złoty Rog",
+            "użytkownik": "OlaZ",
+            "ocena": 1,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-02-17"
+          },
+          {
+            "nazwa": "Hotel Pod Smokiem",
+            "użytkownik": "MateuszL",
+            "ocena": 1,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-12-02"
+          }
+        ],
+        "liczba_opinii": 183,
+        "średnia_opinii": 3.6,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Kawiarnia Floriańska",
+            "użytkownik": "OlaZ",
+            "ocena": 2,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-10-26"
+          },
+          {
+            "nazwa": "Kawiarnia Polska",
+            "użytkownik": "KasiaT",
+            "ocena": 3,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-05-12"
+          },
+          {
+            "nazwa": "Kawiarnia Floriańska",
+            "użytkownik": "MartaW",
+            "ocena": 2,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-08-19"
+          }
+        ],
+        "liczba_opinii": 93,
+        "średnia_opinii": 4.3,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Galeria Królewska",
+            "użytkownik": "JanKowalski",
+            "ocena": 3,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-10-01"
+          },
+          {
+            "nazwa": "Bar Floriańska",
+            "użytkownik": "JanKowalski",
+            "ocena": 4,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-10-10"
+          },
+          {
+            "nazwa": "Park Floriańska",
+            "użytkownik": "MartaW",
+            "ocena": 1,
+            "opinia": "Wyjątkowa jakość, gorąco polecam!",
+            "data": "2024-09-06"
+          }
+        ],
+        "liczba_opinii": 120,
+        "średnia_opinii": 3.9,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Grochowska 200, Dzielnica Praga-Południe": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Zamek Złoty Rog",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 2,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-01-30"
+          },
+          {
+            "nazwa": "Pub Stare Miasto",
+            "użytkownik": "JanKowalski",
+            "ocena": 4,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-01-08"
+          },
+          {
+            "nazwa": "Hotel Pod Smokiem",
+            "użytkownik": "PawełJ",
+            "ocena": 1,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-05-18"
+          }
+        ],
+        "liczba_opinii": 135,
+        "średnia_opinii": 4.0,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Park Pod Smokiem",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 5,
+            "opinia": "Bardzo tłoczno, ale warto odwiedzić.",
+            "data": "2024-02-04"
+          },
+          {
+            "nazwa": "Bar Polska",
+            "użytkownik": "MartaW",
+            "ocena": 4,
+            "opinia": "Nie było źle, ale też nie zachwyciło.",
+            "data": "2024-08-01"
+          },
+          {
+            "nazwa": "Pub Stare Miasto",
+            "użytkownik": "OlaZ",
+            "ocena": 2,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-11-11"
+          }
+        ],
+        "liczba_opinii": 132,
+        "średnia_opinii": 4.4,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Park Kulturalna",
+            "użytkownik": "JanKowalski",
+            "ocena": 3,
+            "opinia": "Ukryty skarb, fantastyczne jedzenie i atmosfera!",
+            "data": "2024-02-13"
+          },
+          {
+            "nazwa": "Kawiarnia Królewska",
+            "użytkownik": "OlaZ",
+            "ocena": 3,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-02-04"
+          },
+          {
+            "nazwa": "Pub Floriańska",
+            "użytkownik": "JanKowalski",
+            "ocena": 5,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2023-12-31"
+          }
+        ],
+        "liczba_opinii": 62,
+        "średnia_opinii": 4.8,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    },
+    "ul. Marynarska 15, Dzielnica Mokotów": {
+      "Restauracje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Muzeum Nowa Era",
+            "użytkownik": "AnnaK",
+            "ocena": 3,
+            "opinia": "Mogłoby być czyściej, ale ogólnie okej.",
+            "data": "2024-07-03"
+          },
+          {
+            "nazwa": "Park Królewska",
+            "użytkownik": "OlaZ",
+            "ocena": 1,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-06-28"
+          },
+          {
+            "nazwa": "Pub Złoty Rog",
+            "użytkownik": "AgnieszkaP",
+            "ocena": 4,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-09-01"
+          }
+        ],
+        "liczba_opinii": 139,
+        "średnia_opinii": 3.5,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Sklepy": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Kawiarnia Stare Miasto",
+            "użytkownik": "MartaW",
+            "ocena": 4,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-04-02"
+          },
+          {
+            "nazwa": "Hotel Floriańska",
+            "użytkownik": "MateuszL",
+            "ocena": 2,
+            "opinia": "Niesamowite doświadczenie, na pewno wrócę!",
+            "data": "2024-07-26"
+          },
+          {
+            "nazwa": "Muzeum Królewska",
+            "użytkownik": "MateuszL",
+            "ocena": 4,
+            "opinia": "Przystępne ceny i miła obsługa.",
+            "data": "2024-10-07"
+          }
+        ],
+        "liczba_opinii": 159,
+        "średnia_opinii": 4.8,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      },
+      "Atrakcje": {
+        "top_3_opinii": [
+          {
+            "nazwa": "Kawiarnia Wawelska",
+            "użytkownik": "JanKowalski",
+            "ocena": 3,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-11-11"
+          },
+          {
+            "nazwa": "Pub Nowa Era",
+            "użytkownik": "JanKowalski",
+            "ocena": 2,
+            "opinia": "Dobra obsługa, ale jest miejsce na poprawę.",
+            "data": "2024-03-12"
+          },
+          {
+            "nazwa": "Kawiarnia Złoty Rog",
+            "użytkownik": "AnnaK",
+            "ocena": 5,
+            "opinia": "Miejsce historyczne, koniecznie trzeba zobaczyć!",
+            "data": "2024-06-17"
+          }
+        ],
+        "liczba_opinii": 57,
+        "średnia_opinii": 4.2,
+        "min_możliwa_ocena": 1,
+        "max_możliwa_ocena": 5
+      }
+    }
+  }
+}
