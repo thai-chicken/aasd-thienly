@@ -1,52 +1,46 @@
-import spade
-import traceback
+import asyncio
 import os
+import traceback
 
-class PriceHandler(spade.agent.Agent):
-    async def setup(self):
-        print("PriceHandler started with JID: {}".format(str(self.jid)))
-        self.add_behaviour(self.SendPricesBehaviour())
+import spade
 
-    class SendPricesBehaviour(spade.behaviour.OneShotBehaviour):
-        async def run(self):
-            msg = spade.message.Message(to=os.getenv("REPORTER_JID"))
-            msg.body = "Prices: 100, 200, 300"
-            await self.send(msg)
-            print("PriceHandler sent message: {}".format(msg.body))
-            self.kill()
+from agents.opinion_agent import OpinionHandler
+from agents.price_agent import PriceHandler
+from agents.reporter_agent import Reporter
+from constants import OPINION_AGENT_TYPES
 
-class Reporter(spade.agent.Agent):
-    async def setup(self):
-        print("Reporter started with JID: {}".format(str(self.jid)))
-        self.add_behaviour(self.ReceivePricesBehaviour())
-
-    class ReceivePricesBehaviour(spade.behaviour.CyclicBehaviour):
-        async def run(self):
-            msg = await self.receive(timeout=10)
-            if msg:
-                print("Reporter received message: {}".format(msg.body))
-                self.kill()
-            else:
-                print("Reporter did not receive any message.")
-                self.kill()
 
 async def main():
-    price_handler = PriceHandler(os.getenv("PRICEHANDLER_JID"), os.getenv("PRICEHANDLER_PASSWORD"), verify_security=False)
-    reporter = Reporter(os.getenv("REPORTER_JID"), os.getenv("REPORTER_PASSWORD"), verify_security=False)
+    reporter = Reporter(os.getenv("REPORTER_JID"), os.getenv("REPORTER_PASSWORD"))
+
+    opinions_handlers = []
+    for opinion_type in OPINION_AGENT_TYPES:
+        platform_name = opinion_type.split('_')[0].upper()  # Extracts 'GOOGLE', 'BOOKING', etc.
+        handler = OpinionHandler(
+            os.getenv(f"{platform_name}_OPINIONHANDLER_JID"),
+            os.getenv(f"{platform_name}_OPINIONHANDLER_PASSWORD"),
+            json_file_path=f"./data/opinions/{platform_name.lower()}.json",
+            opinions_type=opinion_type,
+        )
+        opinions_handlers.append(handler)
+
+    price_handler = PriceHandler(os.getenv("PRICEHANDLER_JID"), os.getenv("PRICEHANDLER_PASSWORD"))
 
     await reporter.start(auto_register=True)
+
+    for handler in opinions_handlers:
+        await handler.start(auto_register=True)
+
     await price_handler.start(auto_register=True)
 
-    await price_handler.behaviours[0].join()
-    await reporter.behaviours[0].join()
+    while True:
+        await asyncio.sleep(1)
 
-    await price_handler.stop()
-    await reporter.stop()
 
 if __name__ == "__main__":
-       try:
-           print("Starting main")
-           spade.run(main())
-       except Exception as e:
-           print("An error occurred: {}".format(str(e)))
-           traceback.print_exc()
+    try:
+        print("[Main] Starting the agent system...")
+        spade.run(main())
+    except Exception as e:
+        print(f"[Main] An error occurred: {e}")
+        traceback.print_exc()
