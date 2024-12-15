@@ -7,4 +7,4 @@ OPINION_AGENT_TYPES = [
 
 # paths
 LOGO_PATH = "./data/logo/thienly_logo.png"
-OUTPUT_PDF_PATH = "./data/report.pdf"
+OUTPUT_PDF_DIR = "./data/outputs"

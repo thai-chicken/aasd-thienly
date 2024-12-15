@@ -2,8 +2,9 @@
 
 Go to the directory with the dockerfile (`hello/`).
 
-## Build the image (once pip requirements change)
+## Build the images (every time the pip requirements change)
 ```bash
+docker build -t server-hello .
 docker build -t aasd .
 ```
 

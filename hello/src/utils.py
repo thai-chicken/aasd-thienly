@@ -2,13 +2,17 @@ import traceback
 
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
-from constants import LOGO_PATH, OUTPUT_PDF_PATH
+from constants import LOGO_PATH, OUTPUT_PDF_DIR
+from datetime import datetime
 
 
 def save_to_pdf():
     # TODO: Implement the save_to_pdf function
+
+    pdf_file_path = OUTPUT_PDF_DIR + "/raport_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".pdf"
+
     try:
-        c = canvas.Canvas(OUTPUT_PDF_PATH, pagesize=letter)
+        c = canvas.Canvas(pdf_file_path, pagesize=letter)
         page_height = letter[1]
         margin = 50
         current_y = page_height - 100
@@ -19,7 +23,7 @@ def save_to_pdf():
         c.drawString(margin, current_y - 70, "Ceny:")
 
         c.save()
-        print(f"Messages saved to {OUTPUT_PDF_PATH}")
+        print(f"Messages saved to {pdf_file_path}")
     except Exception as e:
         print(f"Error saving messages to PDF: {e}")
         traceback.print_exc()
