@@ -1,0 +1,115 @@
+{
+    "Kraków": {
+      "ul. Floriańska 3": [
+        {
+          "NazwaProjektu": "Renowacja zabytkowych kamienic",
+          "KosztSzacowany": 7000000,
+          "CzasStartu": "2024-05-01",
+          "CzasKonca": "2025-08-31",
+          "Uwagi": "Ograniczony dostęp do niektórych budynków."
+        }
+      ],
+      "al. Adama Mickiewicza 30": [
+        {
+          "NazwaProjektu": "Budowa parkingu podziemnego",
+          "KosztSzacowany": 15000000,
+          "CzasStartu": "2024-03-01",
+          "CzasKonca": "2025-12-31",
+          "Uwagi": "Tymczasowe ograniczenia w ruchu na alei."
+        }
+      ],
+      "ul. Grodzka 52": [
+        {
+          "NazwaProjektu": "Modernizacja ulicy i chodników",
+          "KosztSzacowany": 5000000,
+          "CzasStartu": "2024-09-01",
+          "CzasKonca": "2025-05-31",
+          "Uwagi": "Zmiana tras pieszych podczas prac."
+        }
+      ],
+      "ul. Szeroka 24": [
+        {
+          "NazwaProjektu": "Rozbudowa infrastruktury turystycznej",
+          "KosztSzacowany": 8000000,
+          "CzasStartu": "2024-06-01",
+          "CzasKonca": "2026-06-30",
+          "Uwagi": "Możliwy hałas w godzinach dziennych."
+        }
+      ],
+      "ul. Królewska 57": [
+        {
+          "NazwaProjektu": "Rewitalizacja parku miejskiego",
+          "KosztSzacowany": 4000000,
+          "CzasStartu": "2025-04-01",
+          "CzasKonca": "2026-03-31",
+          "Uwagi": "Prace etapowe, park będzie częściowo zamknięty."
+        }
+      ],
+      "os. Centrum E 2": [
+        {
+          "NazwaProjektu": "Budowa centrum kulturalnego",
+          "KosztSzacowany": 20000000,
+          "CzasStartu": "2024-08-01",
+          "CzasKonca": "2027-12-31",
+          "Uwagi": "Możliwe utrudnienia w dostępie do okolicznych budynków."
+        }
+      ]
+    },
+    "Warszawa": {
+      "ul. Nowy Świat 66": [
+        {
+          "NazwaProjektu": "Modernizacja oświetlenia ulicznego",
+          "KosztSzacowany": 3000000,
+          "CzasStartu": "2024-03-01",
+          "CzasKonca": "2024-12-31",
+          "Uwagi": "Możliwe przerwy w dostawie prądu."
+        }
+      ],
+      "Al. Jerozolimskie 54": [
+        {
+          "NazwaProjektu": "Rozbudowa węzła komunikacyjnego",
+          "KosztSzacowany": 40000000,
+          "CzasStartu": "2024-05-01",
+          "CzasKonca": "2027-12-31",
+          "Uwagi": "Utrudnienia w ruchu drogowym i pieszym."
+        }
+      ],
+      "ul. Puławska 2": [
+        {
+          "NazwaProjektu": "Budowa biurowca klasy A",
+          "KosztSzacowany": 150000000,
+          "CzasStartu": "2024-07-01",
+          "CzasKonca": "2028-06-30",
+          "Uwagi": "Hałas związany z pracami budowlanymi."
+        }
+      ],
+      "ul. Targowa 59": [
+        {
+          "NazwaProjektu": "Budowa nowej galerii handlowej",
+          "KosztSzacowany": 200000000,
+          "CzasStartu": "2025-01-01",
+          "CzasKonca": "2027-12-31",
+          "Uwagi": "Możliwy wzmożony ruch w okolicy po zakończeniu budowy."
+        }
+      ],
+      "ul. Grochowska 200": [
+        {
+          "NazwaProjektu": "Renowacja budynków mieszkalnych",
+          "KosztSzacowany": 25000000,
+          "CzasStartu": "2024-04-01",
+          "CzasKonca": "2026-06-30",
+          "Uwagi": "Ograniczony dostęp do posesji w czasie prac."
+        }
+      ],
+      "ul. Marynarska 15": [
+        {
+          "NazwaProjektu": "Modernizacja węzła drogowego",
+          "KosztSzacowany": 60000000,
+          "CzasStartu": "2025-03-01",
+          "CzasKonca": "2028-03-31",
+          "Uwagi": "Czasowe zmiany w organizacji ruchu."
+        }
+      ]
+    }
+  }
+  
