@@ -1,0 +1,48 @@
+{
+  "Warszawa": [
+    {
+      "NazwaProjektu": "Budowa nowego mostu przez Wisłę",
+      "KosztSzacowany": 2500000000,
+      "CzasStartu": "2026-03-01",
+      "CzasKonca": "2030-12-31",
+      "Uwagi": "Nowoczesna konstrukcja ułatwiająca transport między dzielnicami."
+    },
+    {
+      "NazwaProjektu": "Rozbudowa sieci tramwajowej",
+      "KosztSzacowany": 1200000000,
+      "CzasStartu": "2024-09-01",
+      "CzasKonca": "2029-12-31",
+      "Uwagi": "Czasowe ograniczenia w ruchu kołowym na kluczowych trasach."
+    },
+    {
+      "NazwaProjektu": "Budowa nowego tunelu drogowego pod centrum",
+      "KosztSzacowany": 3000000000,
+      "CzasStartu": "2028-01-10",
+      "CzasKonca": "2035-11-30",
+      "Uwagi": "Odciążenie ruchu na powierzchni, dodatkowe konsultacje z mieszkańcami."
+    }
+  ],
+  "Kraków": [
+    {
+      "NazwaProjektu": "Budowa metra w Krakowie",
+      "KosztSzacowany": 5000000000,
+      "CzasStartu": "2025-01-01",
+      "CzasKonca": "2035-12-31",
+      "Uwagi": "Prace etapowe, możliwe utrudnienia w ruchu drogowym i pieszym."
+    },
+    {
+      "NazwaProjektu": "Rozbudowa lotniska Kraków-Balice",
+      "KosztSzacowany": 1500000000,
+      "CzasStartu": "2024-06-01",
+      "CzasKonca": "2028-06-30",
+      "Uwagi": "Możliwy wzrost hałasu w okolicznych dzielnicach podczas budowy."
+    },
+    {
+      "NazwaProjektu": "Modernizacja linii kolejowej do Tarnowa",
+      "KosztSzacowany": 800000000,
+      "CzasStartu": "2027-03-15",
+      "CzasKonca": "2032-10-01",
+      "Uwagi": "Poprawa przepustowości i skrócenie czasu podróży między miastami."
+    }
+  ]
+}

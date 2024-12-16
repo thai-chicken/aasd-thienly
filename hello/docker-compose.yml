@@ -22,6 +22,12 @@ services:
       - FACEBOOK_OPINIONHANDLER_PASSWORD=facebook_opinion_handler
       - TRIPADVISOR_OPINIONHANDLER_JID=tripadvisor_opinion_handler@server_hello
       - TRIPADVISOR_OPINIONHANDLER_PASSWORD=tripadvisor_opinion_handler
+      - CITY_DEPARTMENTHANDLER_JID=city_department_handler@server_hello
+      - CITY_DEPARTMENTHANDLER_PASSWORD=city_department_handler
+      - DISTRICT_DEPARTMENTHANDLER_JID=district_department_handler@server_hello
+      - DISTRICT_DEPARTMENTHANDLER_PASSWORD=district_department_handler
+      - STREET_DEPARTMENTHANDLER_JID=street_department_handler@server_hello
+      - STREET_DEPARTMENTHANDLER_PASSWORD=street_department_handler
     volumes:
       - ./tigase/config/tigase.conf:/home/tigase/tigase-server/etc/tigase.conf
       - ./tigase/config/config.tdsl:/home/tigase/tigase-server/etc/config.tdsl
@@ -49,6 +55,12 @@ services:
       - FACEBOOK_OPINIONHANDLER_PASSWORD=facebook_opinion_handler
       - TRIPADVISOR_OPINIONHANDLER_JID=tripadvisor_opinion_handler@server_hello
       - TRIPADVISOR_OPINIONHANDLER_PASSWORD=tripadvisor_opinion_handler
+      - CITY_DEPARTMENTHANDLER_JID=city_department_handler@server_hello
+      - CITY_DEPARTMENTHANDLER_PASSWORD=city_department_handler
+      - DISTRICT_DEPARTMENTHANDLER_JID=district_department_handler@server_hello
+      - DISTRICT_DEPARTMENTHANDLER_PASSWORD=district_department_handler
+      - STREET_DEPARTMENTHANDLER_JID=street_department_handler@server_hello
+      - STREET_DEPARTMENTHANDLER_PASSWORD=street_department_handler
     volumes:
       - ./src:/app/src
       - ./data:/app/data

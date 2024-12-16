@@ -1,0 +1,98 @@
+{
+    "Kraków": {
+      "Dzielnica Stare Miasto": [
+        {
+          "NazwaProjektu": "Rewitalizacja Rynku Głównego",
+          "KosztSzacowany": 10000000,
+          "CzasStartu": "2025-03-01",
+          "CzasKonca": "2026-06-30",
+          "Uwagi": "Możliwe utrudnienia w ruchu pieszym i hałas."
+        },
+        {
+          "NazwaProjektu": "Rozbudowa tramwaju na ulicy Floriańskiej",
+          "KosztSzacowany": 5000000,
+          "CzasStartu": "2024-09-01",
+          "CzasKonca": "2025-12-31",
+          "Uwagi": "Czasowe zamknięcie ulicy dla pojazdów."
+        }
+      ],
+      "Dzielnica Krowodrza": [
+        {
+          "NazwaProjektu": "Budowa ścieżki rowerowej na al. Mickiewicza",
+          "KosztSzacowany": 2000000,
+          "CzasStartu": "2024-04-01",
+          "CzasKonca": "2024-12-31",
+          "Uwagi": "Czasowe ograniczenia prędkości dla samochodów."
+        },
+        {
+          "NazwaProjektu": "Modernizacja parku na ul. Królewskiej",
+          "KosztSzacowany": 3000000,
+          "CzasStartu": "2025-05-01",
+          "CzasKonca": "2026-05-31",
+          "Uwagi": "Nowe nasadzenia i oświetlenie."
+        }
+      ],
+      "Dzielnica Nowa Huta": [
+        {
+          "NazwaProjektu": "Budowa nowego osiedla na Centrum E",
+          "KosztSzacowany": 20000000,
+          "CzasStartu": "2024-08-01",
+          "CzasKonca": "2027-12-31",
+          "Uwagi": "Możliwe zakłócenia w dostawie wody."
+        }
+      ]
+    },
+    "Warszawa": {
+      "Dzielnica Śródmieście": [
+        {
+          "NazwaProjektu": "Budowa tunelu pod Al. Jerozolimskimi",
+          "KosztSzacowany": 50000000,
+          "CzasStartu": "2024-01-01",
+          "CzasKonca": "2028-01-01",
+          "Uwagi": "Długoterminowe ograniczenia w ruchu kołowym."
+        },
+        {
+          "NazwaProjektu": "Rewitalizacja ul. Nowy Świat",
+          "KosztSzacowany": 8000000,
+          "CzasStartu": "2025-02-01",
+          "CzasKonca": "2026-02-01",
+          "Uwagi": "Zmiana organizacji ruchu podczas prac."
+        }
+      ],
+      "Dzielnica Mokotów": [
+        {
+          "NazwaProjektu": "Budowa nowego osiedla na ul. Puławskiej",
+          "KosztSzacowany": 30000000,
+          "CzasStartu": "2024-07-01",
+          "CzasKonca": "2027-06-30",
+          "Uwagi": "Czasowe problemy z ruchem ciężkim."
+        },
+        {
+          "NazwaProjektu": "Modernizacja ul. Marynarskiej",
+          "KosztSzacowany": 10000000,
+          "CzasStartu": "2025-04-01",
+          "CzasKonca": "2026-03-31",
+          "Uwagi": "Możliwe czasowe przerwy w dostawie prądu."
+        }
+      ],
+      "Dzielnica Praga-Północ": [
+        {
+          "NazwaProjektu": "Budowa muzeum przy ul. Targowej",
+          "KosztSzacowany": 15000000,
+          "CzasStartu": "2024-05-01",
+          "CzasKonca": "2026-12-31",
+          "Uwagi": "Nowoczesne instalacje multimedialne."
+        }
+      ],
+      "Dzielnica Praga-Południe": [
+        {
+          "NazwaProjektu": "Budowa kompleksu sportowego na ul. Grochowskiej",
+          "KosztSzacowany": 20000000,
+          "CzasStartu": "2024-03-01",
+          "CzasKonca": "2025-12-31",
+          "Uwagi": "Hałas w godzinach porannych i wieczornych."
+        }
+      ]
+    }
+  }
+  
