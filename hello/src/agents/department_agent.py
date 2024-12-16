@@ -2,9 +2,11 @@ import json
 import os
 import random
 import traceback
+
 from spade.agent import Agent
 from spade.behaviour import PeriodicBehaviour
 from spade.message import Message
+
 
 class DepartmentsAgent(Agent):
     """
@@ -16,7 +18,7 @@ class DepartmentsAgent(Agent):
 
     @staticmethod
     def parse_address(full_input_address):
-        """ Parse the address. """
+        """Parse the address."""
         parts = [part.strip() for part in full_input_address.split(",")]
         return parts[2], parts[1], parts[0]
 
@@ -34,7 +36,6 @@ class DepartmentsAgent(Agent):
 
         # Parse the address based on investment level
         self.city, self.district, self.address = self.parse_address(input_address)
-
 
     class SendRandomDepartmentBehaviour(PeriodicBehaviour):
         def __init__(self, period, agent_ref):
@@ -87,7 +88,7 @@ class DepartmentsAgent(Agent):
                     "city": self.agent_ref.city if self.agent_ref.city else None,
                     "address": self.agent_ref.address if self.agent_ref.address else None,
                     "district": self.agent_ref.district if self.agent_ref.district else None,
-                    "project": investment
+                    "project": investment,
                 }
                 message_data = {k: v for k, v in message_data.items() if v is not None}
 
