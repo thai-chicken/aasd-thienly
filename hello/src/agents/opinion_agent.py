@@ -18,11 +18,11 @@ class OpinionAgent(Agent):
     class HandleOpinionBehaviour(CyclicBehaviour):
         async def process_message(self, input_address: str):
             address, district, city = parse_address(input_address)
+            address = address + ", " + district
             with open(self.agent.json_file_path, "r", encoding="utf-8") as file:
                 data = json.load(file)
 
-            # TODO(KZ): improve this logic
-            address, details = random.choice(list(data[city].items()))
+            details = data[city][address]
 
             try:
                 print(f"\n[{self.agent.jid}] Preparing to send opinion information:")

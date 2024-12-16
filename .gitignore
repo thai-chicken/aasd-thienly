@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 
 hello/data/outputs/*.pdf
+hello/data/outputs/*.md

@@ -1,5 +1,6 @@
 import json
 import os
+import random
 import traceback
 
 from constants import DEPARTMENT_AGENT_TYPES, OPINION_AGENT_TYPES, PRICES_AGENT_TYPES
@@ -32,7 +33,7 @@ class CustomerAgent(Agent):
                 with open(self.json_file_path, "r") as file:
                     addresses = json.load(file)["addresses"]
 
-                address = addresses[0]  # random.choice(addresses)
+                address = random.choice(addresses)
                 print(f"\n[{self.agent.jid}] Preparing to send information:")
 
                 message_data = {
