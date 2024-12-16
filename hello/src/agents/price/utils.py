@@ -23,7 +23,7 @@ def load_accessible_flats(json_file_path: str) -> List[FlatFeatures]:
     with open(json_file_path, "r") as file:
         data = json.load(file)
 
-    return [FlatFeatures.from_dict(item) for item in data]
+    return [FlatFeatures.from_dict(city_item) for city_items in data.values() for city_item in city_items.values()]
 
 
 def get_similar_flats(service_flats: List[FlatFeatures], target_flat: FlatFeatures) -> List[FlatFeatures]:

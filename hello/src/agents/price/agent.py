@@ -4,9 +4,10 @@ import random
 import traceback
 
 from spade.agent import Agent
-from spade.behaviour import PeriodicBehaviour
+from spade.behaviour import CyclicBehaviour
 from spade.message import Message
 from src.agents.price.utils import get_flat_features, get_similar_flats, load_accessible_flats
+from src.utils import parse_address
 
 
 class PriceServiceAgent(Agent):
@@ -15,49 +16,61 @@ class PriceServiceAgent(Agent):
     Found similar flats are sent to the reporter.
     """
 
-    @staticmethod
-    def parse_address(full_input_address):
-        parts = [part.strip() for part in full_input_address.split(",")]
-        return parts[2], parts[1], parts[0]
-
-    def __init__(self, jid, password, json_file_path, price_service, input_address, verify_security=False):
+    def __init__(self, jid, password, json_file_path, price_service, verify_security=False):
         """ """
         super().__init__(jid, password, verify_security=verify_security)
+
+
         self.json_file_path = json_file_path
         self.price_service = price_service
 
         self.service_flats = load_accessible_flats(self.json_file_path)
 
-        # Parse the address based on investment level
-        self.city, self.district, self.address = self.parse_address(input_address)
+    class ServicePricesBehaviour(CyclicBehaviour):
+        async def process_message(self, input_address: str):
+            address, district, city = parse_address(input_address)
+            address = address + ", " + district
+            target_flat = get_flat_features(city, address)
+            similar_flats = get_similar_flats(self.agent.service_flats, target_flat)
 
-    class SendServicePricesBehaviour(PeriodicBehaviour):
-        def __init__(self, period, agent_ref):
-            super().__init__(period)
-            self.agent_ref = agent_ref
+            message_data = {
+                "type": self.agent.price_service,
+                "address": address if address else None,
+                "flat_info": target_flat.to_dict(),
+                "similar_flats": [
+                    {"flat": flat_score_info["flat"].to_dict(), "score": flat_score_info["score"]}
+                    for flat_score_info in similar_flats
+                ],
+            }
+
+            try:
+                print(f"\n[{self.agent.jid}] Preparing to send price information:")
+                msg = Message(to=os.getenv("REPORTER_JID"))
+                msg.body = json.dumps(message_data, ensure_ascii=False)
+                print(f"[{self.agent.jid}] Sending message...")
+                await self.send(msg)
+                print(f"[{self.agent.jid}] Message sent successfully.\n")
+            except Exception as e:
+                print(f"[{self.agent.jid}] Error while sending information: {e}")
+                traceback.print_exc()
 
         async def run(self):
             try:
-                target_flat = get_flat_features(self.city, self.address)
-                similar_flats = get_similar_flats(self.service_flats, target_flat)
+                msg = await self.receive(timeout=40)
+                if msg:
+                    body = json.loads(msg.body)
 
-                message_data = {
-                    "type": "price",
-                    "service": self.agent_ref.price_service,
-                    "address": self.agent_ref.address if self.agent_ref.address else None,
-                    "flat_info": target_flat.to_dict(),
-                    "similar_flats": [{"flat": flat.to_dict(), "score": score} for flat, score in similar_flats],
-                }
-
-                msg = Message(to=os.getenv("REPORTER_JID"))
-                msg.body = json.dumps(message_data, ensure_ascii=False)
-                print(f"[{self.agent_ref.jid}] Sending message...")
-                await self.send(msg)
-                print(f"[{self.agent_ref.jid}] Message sent successfully.\n")
-
+                    if body["type"] == "init":
+                        address = body["address"]
+                        print(f"[{self.agent.jid}] Received init message for address: {address}")
+                        await self.process_message(address)
+                    else:
+                        print(f"[{self.agent.jid}] Received unknown message: {body['type']}")
+                else:
+                    print(f"[{self.agent.jid}] No message received in this cycle.")
             except Exception as e:
-                print(f"[{self.agent_ref.jid}] Error while sending information: {e}")
+                print(f"[{self.agent.jid}] Error when receiving init message: {e}")
                 traceback.print_exc()
 
     async def setup(self):
-        self.add_behaviour(self.SendServicePricesBehaviour(period=30, agent_ref=self))
+        self.add_behaviour(self.ServicePricesBehaviour())

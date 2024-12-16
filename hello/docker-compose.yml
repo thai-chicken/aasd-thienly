@@ -10,8 +10,6 @@ services:
       - DB_ROOT_PASS=admin
       - ADMIN_JID=admin@server_hello
       - ADMIN_PASSWORD=admin
-      - PRICEHANDLER_JID=price_handler@server_hello
-      - PRICEHANDLER_PASSWORD=price_handler
       - REPORTER_JID=reporter@server_hello
       - REPORTER_PASSWORD=reporter
       - GOOGLE_OPINIONHANDLER_JID=google_opinion_handler@server_hello
@@ -28,6 +26,14 @@ services:
       - DISTRICT_DEPARTMENTHANDLER_PASSWORD=district_department_handler
       - STREET_DEPARTMENTHANDLER_JID=street_department_handler@server_hello
       - STREET_DEPARTMENTHANDLER_PASSWORD=street_department_handler
+      - CUSTOMER_AGENT_JID=customer_agent@server_hello
+      - CUSTOMER_AGENT_PASSWORD=customer_agent
+      - ALLEGRO_PRICEHANDLER_JID=allegro_price_handler@server_hello
+      - ALLEGRO_PRICEHANDLER_PASSWORD=allegro_price_handler
+      - OLX_PRICEHANDLER_JID=olx_price_handler@server_hello
+      - OLX_PRICEHANDLER_PASSWORD=olx_price_handler
+      - OTODOM_PRICEHANDLER_JID=otodom_price_handler@server_hello
+      - OTODOM_PRICEHANDLER_PASSWORD=otodom_price_handler
     volumes:
       - ./tigase/config/tigase.conf:/home/tigase/tigase-server/etc/tigase.conf
       - ./tigase/config/config.tdsl:/home/tigase/tigase-server/etc/config.tdsl
@@ -43,8 +49,6 @@ services:
       - DB_ROOT_PASS=admin
       - ADMIN_JID=admin@server_hello
       - ADMIN_PASSWORD=admin
-      - PRICEHANDLER_JID=price_handler@server_hello
-      - PRICEHANDLER_PASSWORD=price_handler
       - REPORTER_JID=reporter@server_hello
       - REPORTER_PASSWORD=reporter
       - GOOGLE_OPINIONHANDLER_JID=google_opinion_handler@server_hello
@@ -61,6 +65,14 @@ services:
       - DISTRICT_DEPARTMENTHANDLER_PASSWORD=district_department_handler
       - STREET_DEPARTMENTHANDLER_JID=street_department_handler@server_hello
       - STREET_DEPARTMENTHANDLER_PASSWORD=street_department_handler
+      - CUSTOMER_AGENT_JID=customer_agent@server_hello
+      - CUSTOMER_AGENT_PASSWORD=customer_agent
+      - ALLEGRO_PRICEHANDLER_JID=allegro_price_handler@server_hello
+      - ALLEGRO_PRICEHANDLER_PASSWORD=allegro_price_handler
+      - OLX_PRICEHANDLER_JID=olx_price_handler@server_hello
+      - OLX_PRICEHANDLER_PASSWORD=olx_price_handler
+      - OTODOM_PRICEHANDLER_JID=otodom_price_handler@server_hello
+      - OTODOM_PRICEHANDLER_PASSWORD=otodom_price_handler
     volumes:
       - ./src:/app/src
       - ./data:/app/data
