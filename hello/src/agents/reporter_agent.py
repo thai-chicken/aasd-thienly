@@ -4,7 +4,7 @@ import traceback
 from constants import DEPARTMENT_AGENT_TYPES, OPINION_AGENT_TYPES, PRICES_AGENT_TYPES
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
-from utils import save_to_pdf
+from utils import save_to_pdf, save_with_md
 
 
 class Reporter(Agent):
@@ -80,13 +80,7 @@ class Reporter(Agent):
                         and self.agent.received_messages["prices"][PRICES_AGENT_TYPES[0]]
                     ):
                         print(f"\n[{self.agent.jid}] All messages received")
-                        save_to_pdf(
-                            street_data=self.agent.data["investment"]["street"],
-                            district_data=self.agent.data["investment"]["district"],
-                            city_data=self.agent.data["investment"]["city"],
-                            address_data=self.agent.data["address"],
-                        )
-                        # print(self.agent.data)
+                        save_with_md(self.agent.data)
                         self.agent.reset_attributes()
 
                 else:

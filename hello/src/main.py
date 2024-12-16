@@ -14,7 +14,9 @@ from constants import DEPARTMENT_AGENT_TYPES, OPINION_AGENT_TYPES, PRICES_AGENT_
 async def main():
     reporter = Reporter(os.getenv("REPORTER_JID"), os.getenv("REPORTER_PASSWORD"))
     customer_agent = CustomerAgent(
-        os.getenv("CUSTOMER_AGENT_JID"), os.getenv("CUSTOMER_AGENT_PASSWORD"), json_file_path="./data/customer/addresses.json"
+        os.getenv("CUSTOMER_AGENT_JID"),
+        os.getenv("CUSTOMER_AGENT_PASSWORD"),
+        json_file_path="./data/customer/addresses.json",
     )
 
     opinions_handlers = []
