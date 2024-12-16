@@ -1,11 +1,13 @@
 import traceback
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
-from constants import LOGO_PATH, OUTPUT_PDF_PATH
 from datetime import datetime
 
-def save_to_pdf(street_data, district_data, city_data):
-    pdf_file_path = OUTPUT_PDF_PATH + "/raport_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".pdf"
+from constants import LOGO_PATH, OUTPUT_PDF_DIR
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+
+
+def save_to_pdf(street_data, district_data, city_data, address_data):
+    pdf_file_path = OUTPUT_PDF_DIR + "/raport_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".pdf"
 
     try:
         c = canvas.Canvas(pdf_file_path, pagesize=letter)
@@ -23,14 +25,14 @@ def save_to_pdf(street_data, district_data, city_data):
 
         # Extract and print the address once at the top
         # Assuming all data dicts have the same 'address' key
-        address = street_data.get('address', '') or district_data.get('address', '') or city_data.get('address', '')
+        address = address_data["full"]
         if address:
             c.setFont("Helvetica-Bold", 12)
             c.drawString(margin, current_y, f"Address: {address}")
-            current_y -= (line_height * 2)
+            current_y -= line_height * 2
 
         # Keys to exclude from the data sections
-        exclude_keys = {'type', 'city', 'address', 'district'}
+        exclude_keys = {"type", "city", "address", "district", "street"}
 
         # Helper function to print dictionary data into the PDF without excluded keys
         def print_filtered_dict_data(c, data_dict, start_y, title):
@@ -56,6 +58,7 @@ def save_to_pdf(street_data, district_data, city_data):
             return start_y - line_height
 
         # Print "street" data
+        print(street_data)
         current_y = print_filtered_dict_data(c, street_data, current_y, "Street Data")
 
         # Print "district" data
@@ -69,3 +72,9 @@ def save_to_pdf(street_data, district_data, city_data):
     except Exception as e:
         print(f"Error saving report to PDF: {e}")
         traceback.print_exc()
+
+
+def parse_address(full_input_address):
+    """Parse the address."""
+    parts = [part.strip() for part in full_input_address.split(",")]
+    return parts[0], parts[1], parts[2]

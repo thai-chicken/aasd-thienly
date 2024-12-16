@@ -6,34 +6,45 @@ import traceback
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
 from spade.message import Message
+from src.agents.price.utils import get_flat_features, get_similar_flats, load_accessible_flats
 from src.utils import parse_address
 
 
-class OpinionAgent(Agent):
-    def __init__(self, jid, password, json_file_path, opinions_type, verify_security=False):
-        super().__init__(jid, password, verify_security=verify_security)
-        self.json_file_path = json_file_path
-        self.opinions_type = opinions_type
+class PriceServiceAgent(Agent):
+    """PriceServiceAgent is an agent that retrieves features of a flat and, in its datebase, finds similar flats.
+    It depends on the price service (OTODOM, ALLEGRO, OLX), each having its own database.
+    Found similar flats are sent to the reporter.
+    """
 
-    class HandleOpinionBehaviour(CyclicBehaviour):
+    def __init__(self, jid, password, json_file_path, price_service, verify_security=False):
+        """ """
+        super().__init__(jid, password, verify_security=verify_security)
+
+
+        self.json_file_path = json_file_path
+        self.price_service = price_service
+
+        self.service_flats = load_accessible_flats(self.json_file_path)
+
+    class ServicePricesBehaviour(CyclicBehaviour):
         async def process_message(self, input_address: str):
             address, district, city = parse_address(input_address)
-            with open(self.agent.json_file_path, "r", encoding="utf-8") as file:
-                data = json.load(file)
+            address = address + ", " + district
+            target_flat = get_flat_features(city, address)
+            similar_flats = get_similar_flats(self.agent.service_flats, target_flat)
 
-            # TODO(KZ): improve this logic
-            address, details = random.choice(list(data[city].items()))
+            message_data = {
+                "type": self.agent.price_service,
+                "address": address if address else None,
+                "flat_info": target_flat.to_dict(),
+                "similar_flats": [
+                    {"flat": flat_score_info["flat"].to_dict(), "score": flat_score_info["score"]}
+                    for flat_score_info in similar_flats
+                ],
+            }
 
             try:
-                print(f"\n[{self.agent.jid}] Preparing to send opinion information:")
-
-                message_data = {
-                    "type": self.agent.opinions_type,
-                    "city": city,
-                    "address": address,
-                    "content": details,
-                }
-
+                print(f"\n[{self.agent.jid}] Preparing to send price information:")
                 msg = Message(to=os.getenv("REPORTER_JID"))
                 msg.body = json.dumps(message_data, ensure_ascii=False)
                 print(f"[{self.agent.jid}] Sending message...")
@@ -62,4 +73,4 @@ class OpinionAgent(Agent):
                 traceback.print_exc()
 
     async def setup(self):
-        self.add_behaviour(self.HandleOpinionBehaviour())
+        self.add_behaviour(self.ServicePricesBehaviour())
