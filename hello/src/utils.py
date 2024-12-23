@@ -1,7 +1,7 @@
 import traceback
 from datetime import datetime
 
-from constants import LOGO_PATH, OUTPUT_PDF_DIR
+from constants import LOGO_PATH, OUTPUT_PDF_DIR, DEJAVU_FONT_PATH
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
@@ -25,10 +25,12 @@ def save_with_md(data):
 
     try:
         with open(md_file_path, "w", encoding="utf-8") as f:
-            f.write('''<div style="text-align: center">
+            # Header Section
+            f.write(f'''<div style="text-align: center">
                         <h1 style="font-size: 24px;">Indywidualny Raport</h1>
-                        <img src="./data/logo/thienly_logo.png" style="height: 150px;">
+                        <img src={LOGO_PATH} style="height: 150px;">
                     </div>\n\n''')
+
             # Address Section
             address = address_data["full"]
             f.write(f"## **Adres**: {address}\n\n")
@@ -101,7 +103,7 @@ def save_with_md(data):
                 <style>
                 @font-face {{
                     font-family: "DejaVuSans";
-                    src: url("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")
+                    src: url({DEJAVU_FONT_PATH})
                 }}
                 * {{
                     font-family: DejaVuSans;
@@ -113,7 +115,6 @@ def save_with_md(data):
             </body>
             </html>
             """
-            print(html_content)
             with open(pdf_file_path, "wb") as pdf_file:
                 pisa.CreatePDF(html_content, dest=pdf_file, encoding="UTF-8")
 
