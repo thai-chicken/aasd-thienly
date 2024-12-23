@@ -4,7 +4,7 @@ import traceback
 from constants import DEPARTMENT_AGENT_TYPES, OPINION_AGENT_TYPES, PRICES_AGENT_TYPES
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
-from utils import save_to_pdf, save_with_md
+from utils import save_with_md
 
 
 class Reporter(Agent):

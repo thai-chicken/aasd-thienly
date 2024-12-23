@@ -11,3 +11,4 @@ DEPARTMENT_AGENT_TYPES = ["district", "city", "street"]
 LOGO_PATH = "./data/logo/thienly_logo.png"
 OUTPUT_PDF_DIR = "./data/outputs"
 PRICES_DIR = "./data/prices"
+DEJAVU_FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
