@@ -38,7 +38,7 @@ class PriceServiceAgent(Agent):
                 "address": address if address else None,
                 "flat_info": target_flat.to_dict(),
                 "similar_flats": [
-                    {"flat": flat_score_info["flat"].to_dict(), "score": flat_score_info["score"]}
+                    {"flat": flat_score_info["flat"].to_dict(), "score": round(flat_score_info["score"], 2)}
                     for flat_score_info in similar_flats
                 ],
             }
