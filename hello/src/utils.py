@@ -1,3 +1,4 @@
+import hashlib
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -5,6 +6,10 @@ from datetime import datetime
 from constants import DEJAVU_FONT_PATH, LOGO_PATH, OUTPUT_PDF_DIR
 from src.agents.reporter.engine import generate_completion
 from src.agents.reporter.prompts import INTRODUCTION_INVESTMENTS, INTRODUCTION_OPINIONS, INTRODUCTION_PRICE
+
+
+def string_to_sha256(s):
+    return hashlib.sha256(s.encode()).hexdigest()
 
 
 def prepare_flat_info(flat_info: dict) -> str:
@@ -68,7 +73,7 @@ def parse_address(full_input_address):
     return parts[0], parts[1], parts[2]
 
 
-def save_with_md(data):
+def save_with_md(data, agent_jid: str):
     street_data = data["investment"]["street"]
     district_data = data["investment"]["district"]
     city_data = data["investment"]["city"]
@@ -163,10 +168,12 @@ def save_with_md(data):
             with open(pdf_file_path, "wb") as pdf_file:
                 pisa.CreatePDF(html_content, dest=pdf_file, encoding="UTF-8")
 
-            print(f"PDF report saved to {pdf_file_path}")
+            print(f"[{agent_jid}] PDF report saved to {pdf_file_path}")
+            return pdf_file_path
         except Exception as pdf_error:
-            print(f"Error converting markdown to PDF: {pdf_error}")
+            print(f"[{agent_jid}] Error converting markdown to PDF: {pdf_error}")
+            return None
 
     except Exception as e:
-        print(f"Error saving report to markdown: {e}")
+        print(f"[{agent_jid}] Error saving report to markdown: {e}")
         traceback.print_exc()

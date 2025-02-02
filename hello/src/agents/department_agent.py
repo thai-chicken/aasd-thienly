@@ -28,7 +28,7 @@ class DepartmentsAgent(Agent):
         self.investment_level = investment_level
 
     class ServiceDepartmentBehaviour(CyclicBehaviour):
-        async def process_message(self, input_address: str):
+        async def process_message(self, input_address: str, object_id: str):
             address, district, city = parse_address(input_address)
             with open(self.agent.json_file_path, "r", encoding="utf-8") as file:
                 data = json.load(file)
@@ -68,6 +68,7 @@ class DepartmentsAgent(Agent):
 
                 message_data = {
                     "type": self.agent.investment_level,
+                    "object_id": object_id,
                     "city": city if city else None,
                     "address": address if address else None,
                     "district": district if district else None,
@@ -93,7 +94,7 @@ class DepartmentsAgent(Agent):
                     if body["type"] == "init":
                         address = body["address"]
                         print(f"[{self.agent.jid}] Received init message for address: {address}")
-                        await self.process_message(address)
+                        await self.process_message(address, object_id=body["object_id"])
                     else:
                         print(f"[{self.agent.jid}] Received unknown message: {body['type']}")
                 else:
