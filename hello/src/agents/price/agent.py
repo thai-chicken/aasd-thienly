@@ -1,11 +1,12 @@
 import json
 import os
-import random
 import traceback
 
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
 from spade.message import Message
+
+
 from src.agents.price.utils import get_flat_features, get_similar_flats, load_accessible_flats
 from src.utils import parse_address
 
@@ -20,21 +21,22 @@ class PriceServiceAgent(Agent):
         """ """
         super().__init__(jid, password, verify_security=verify_security)
 
-
         self.json_file_path = json_file_path
         self.price_service = price_service
 
         self.service_flats = load_accessible_flats(self.json_file_path)
 
     class ServicePricesBehaviour(CyclicBehaviour):
-        async def process_message(self, input_address: str):
+        async def process_message(self, input_address: str, object_id: str):
             address, district, city = parse_address(input_address)
             address = address + ", " + district
             target_flat = get_flat_features(city, address)
+
             similar_flats = get_similar_flats(self.agent.service_flats, target_flat)
 
             message_data = {
                 "type": self.agent.price_service,
+                "object_id": object_id,
                 "address": address if address else None,
                 "flat_info": target_flat.to_dict(),
                 "similar_flats": [
@@ -62,9 +64,11 @@ class PriceServiceAgent(Agent):
 
                     if body["type"] == "init":
                         address = body["address"]
+                        object_id = body["object_id"]
                         print(f"[{self.agent.jid}] Received init message for address: {address}")
-                        await self.process_message(address)
+                        await self.process_message(address, object_id=object_id)
                     else:
+
                         print(f"[{self.agent.jid}] Received unknown message: {body['type']}")
                 else:
                     print(f"[{self.agent.jid}] No message received in this cycle.")

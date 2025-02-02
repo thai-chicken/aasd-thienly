@@ -1,11 +1,11 @@
 import json
 import os
-import random
 import traceback
 
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
 from spade.message import Message
+
 from src.utils import parse_address
 
 
@@ -16,7 +16,7 @@ class OpinionAgent(Agent):
         self.opinions_type = opinions_type
 
     class HandleOpinionBehaviour(CyclicBehaviour):
-        async def process_message(self, input_address: str):
+        async def process_message(self, input_address: str, object_id: str):
             address, district, city = parse_address(input_address)
             address = address + ", " + district
             with open(self.agent.json_file_path, "r", encoding="utf-8") as file:
@@ -29,6 +29,7 @@ class OpinionAgent(Agent):
 
                 message_data = {
                     "type": self.agent.opinions_type,
+                    "object_id": object_id,
                     "city": city,
                     "address": address,
                     "content": details,
@@ -51,9 +52,11 @@ class OpinionAgent(Agent):
 
                     if body["type"] == "init":
                         address = body["address"]
+                        object_id = body["object_id"]
                         print(f"[{self.agent.jid}] Received init message for address: {address}")
-                        await self.process_message(address)
+                        await self.process_message(address, object_id=object_id)
                     else:
+
                         print(f"[{self.agent.jid}] Received unknown message: {body['type']}")
                 else:
                     print(f"[{self.agent.jid}] No message received in this cycle.")
