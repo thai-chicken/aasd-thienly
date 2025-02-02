@@ -7,7 +7,7 @@ from agents.customer_agent import CustomerAgent
 from agents.department_agent import DepartmentsAgent
 from agents.opinion_agent import OpinionAgent
 from agents.price.agent import PriceServiceAgent
-from agents.reporter_agent import Reporter
+from agents.reporter.reporter_agent import Reporter
 from constants import DEPARTMENT_AGENT_TYPES, OPINION_AGENT_TYPES, PRICES_AGENT_TYPES
 
 
