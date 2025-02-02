@@ -22,12 +22,15 @@ def generate_completion(data: str, introduction: str) -> str:
     prompt = re.sub(r"{introduction}", introduction, prompt)
     prompt = re.sub(r"{data}", data, prompt)
 
-    response = client.chat.completions.create(
-        model=DEFAULT_MODEL,
-        messages=[
-            {"role": "system", "content": prompt},
-        ],
-        temperature=0.5,
-        max_tokens=2000,
-    )
-    return response.choices[0].message.content
+    try:
+        response = client.chat.completions.create(
+            model=DEFAULT_MODEL,
+            messages=[
+                {"role": "system", "content": prompt},
+            ],
+            temperature=0.5,
+            max_tokens=2000,
+        )
+        return response.choices[0].message.content
+    except Exception:
+        return data
